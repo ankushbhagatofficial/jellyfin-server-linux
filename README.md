@@ -1,4 +1,9 @@
-# jellyfin-server-linux
+<h2 align="center">Jellyfin Media Server</h1>
+
+<p align="center">
+<img alt="Logo Banner" src="https://user-images.githubusercontent.com/74892618/209470135-01e3a239-da65-40d8-a429-cba00eb54be0.png"/>
+<br/>
+<br/>
 
 ### Installation for Linux
 ```
