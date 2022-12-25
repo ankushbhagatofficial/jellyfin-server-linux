@@ -21,7 +21,7 @@ fi
 wget https://repo.jellyfin.org/releases/server/linux/stable/combined/jellyfin_10.8.8_${sys_architecture}.tar.gz -O jellyfin_10.8.8_${sys_architecture}.tar.gz
 tar -xf jellyfin_10.8.8_${sys_architecture}.tar.gz
 
-ln -s jellyfin_10.8.8 jellyfin
+sudo ln -s jellyfin_10.8.8 jellyfin
 
 if [[ ! -d log ]]
 then
@@ -127,7 +127,7 @@ JELLYFINDIR="${dir}"
 CONF
 
 chmod +x start.jellyfin
-ln -s ${dir}/start.jellyfin /usr/bin/jellyfin
+sudo ln -s ${dir}/start.jellyfin /usr/bin/jellyfin
 
 echo -e "\e[92mJellyfin successfully installed.\e[0m"
 echo -e "\e[92mRun jellyfin server using: jellyfin\e[0m"
