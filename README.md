@@ -2,7 +2,7 @@
 
 ### Installation for Linux
 ```
-apt install git -y
+sudo apt install git -y
 git clone https://github.com/ankushbhagatofficial/jellyfin-server-linux
 jellyfin-server-linux/jellyfin-installer.sh
 ```
