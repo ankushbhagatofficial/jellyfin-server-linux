@@ -16,3 +16,8 @@ proot-distro login debian -- apt install git sudo -y
 proot-distro login debian -- git clone https://github.com/ankushbhagatofficial/jellyfin-server-linux
 proot-distro login debian -- jellyfin-server-linux/jellyfin-installer.sh
 ```
+
+### Start server for Termux/Android
+```
+proot-distro login debian -- jellyfin
+```
